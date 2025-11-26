@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+*{margin:0;pading:0;}
+ul,ol{list-style: none;}
+ul,ol{padding:0;}
+dd{margin:0;}
+a:link, a:visited, a:hover {
+	color:#B4AEAE;
+	text-decoration: none;
+}
+a:visited{color:#000;
+	}
+a:hover{}
+/* 定义body全文部分 */
+body{background-color: #000000; font-size:16px;font-family: Times New Roman, Times, serif; color:#F3F3F3; }
+/* 定义外围框 */
+#main-container{width:1200px;margin:0 auto;}
+/* 定义header */
+	.header-logo{height:150px;}
+		#index-logo{padding-left: 90px; padding-top: 20px; width:84px; height:104px;float:left; }
+		#logo{padding-left:250px; padding-top:35px;}
+/* 定义header导航条 */
+	#header-nav{font-size:16px;width:1200px;height:50px; line-height:54px; border-top:2px #5E5B5B solid; border-bottom:2px #5E5B5B solid; display:block;text-align:center;}
+		#header-nav ul{width:1200px;margin-left:31px;}
+/* 定义header导航条中的链接样式 */
+#header-nav ul li{float:left;}
+#header-nav a{display: block;height:50px;padding:0 23px;}
+
+#header-nav a:link, a:visited, a:hover{color:#d7d4d4;background:#000;text-decoration:none;}
+#header-nav a:visited{color:#d7d4d4;background-color: #000; text-decoration:underline;}
+#header-nav a:hover{background-color:#5e5b5b;color:red;}
+/* 定义header导航条中reed stick的鼠标悬停显示下拉菜单 */
+.headernav{position:relative;}
+.dropdown01{width:147px;height:48px;background-color:#5e5b5b;position:absolute; display:none;text-align: center;}
+.dropdown01 .a{background-color: #5e5b5b;line-height:1em;}
+.drop:hover .dropdown01{display:block;}
+/* 定义header导航条中diffuser glss的鼠标悬停显示下拉菜单 */
+.dropdown02{width:195px;height:48px;background-color: #5e5b5b;position:absolute; display:none;}
+.dropdown02 .a{background-color: #5e5b5b;line-height:1em;}
+.drop:hover .dropdown02{display:block;}
+.drop span a{cursor: default;}
+/* 定义中间主体部分 */
+	#mainbody{width:1150px;height:880px; margin:0 auto; margin-top:5px;border-top:1px #5e5b5b solid;border-bottom:1px #5E5B5B solid;}
+/* 定义中间主体的左边栏 */
+		.mainbody-left{float:left;}
+
+			#mainbody-left-first{font-size:14px;width:240px;height:30px;line-height:31px;background-color: #000;border-bottom-style: dotted;border-color:#5e5b5b;}
+
+			.mainbody-left ul{width:240px;}
+					.mainbody-left ul li{height:30px;line-height:30px;padding-top:5px;padding-left: 25px; border-bottom: 1px #5e5b5b solid; background-color: #000; }
+				.mainbody-left ul li:hover{padding-left:0px;}
+
+			#mainbody-left-last{margin-top: 120px; padding-top:20px; width:240px;font-size:14px;color:#5e5b5b;height:14px;background-color:#000;}
+				#mainbody-left-bottom-pic{width:240px;height:270px;}
+					#mainbody-left-bottom-pic img{width:240px;height:270px;}
+/* 定义中间主体部分右边栏 */
+	#mainbody-right{margin-left:257px;width:890px;height:880px;}
+
+		#mainbody-right-top{font:14px;height:30px;line-height:30px;}
+
+		#index-pic{width:890px; height: 554px;text-align: center;}
+			#index-pic img{}
+
+#contact-us{text-align: center;line-height: 1.4em;}
+#about-us{margin-top: -8px;line-height:1.4em;}
+#reed_diffuser{line-height: 1.8em;}
+#more_info{line-height: 1.4em;}
+.product-list01 {width:890px;height:260px;border-bottom:1px #5e5b5b solid;margin-bottom:5px;}
+.product-list01 .product-content{width:163px;height:260px;float:left;margin-left:46px;margin-bottom:5px;}
+.product-content .product-des {font:normal;}
+.product-link{text-align: center;font-size:18px;height:25px;margin-top:5px;margin-left:304px; margin-border:1px blue solid;}
+.product-link span{height:25px;width:25px;border-radius:25px;float:left ; text-align: center; line-height: 27px;}
+.product-link span a{display:block;height:25px;width:25px;border-radius:25px;}
+.product-link span:link, a:visited, a:hover{}
+.product-link span a:visited{color:#8D1114; border:1px #8d1114 dotted;}
+.product-link span:hover{color:#fff;border:1px #8D1114 solid;}
+
+		#index-text{margin-top:28px;margin-right:34px;margin-bottom:20px;margin-left:34px;padding:0 5px;color:#5e5b5b;border-left:1px #5e5b5b solid;border-right:1px #5e5b5b solid;}
+			#index-text p{font-size:16px;line-height:1.2em;text-align: center}
+/* 定义footer部分 */
+	#footer{width:1200px;height:50px;border-top:1px #5e5b5b solid;margin-top:20px;}
+
+		#footer-link { width:82px;height:24px;line-height: 24px; background-color:#8D1114; font-size:16px;text-align:center;margin-top: 2px; margin-left: 1040px;}
+			
+#footer-link p a{display:block;}
+			#footer-link p a:hover{background-color: #5e5b5b;color:red;}
+
+		#footer-copyright{font-size:12px;padding:10px 25px;}
+
+
+
